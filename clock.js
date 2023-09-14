@@ -11,7 +11,6 @@ if(!myName){
 
 function showTime() {
     let clock = document.querySelector("#myClock")
-    let colorClock = document.querySelector(".clock")
 
     let today = new Date()
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
